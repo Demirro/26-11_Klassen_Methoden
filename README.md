@@ -7,7 +7,7 @@ Ihr findet im Download wieder eine Vorlage. Es geht diesmal um Klassen und Metho
 
 ### 📝 Aufgabe:
 
-Stellt euch vor ich programmiert ein rudimentäres Banksystem. Ihr fangt an die Struktur für Bankkonten zu bauen. Das ist eure Klasse *Konto*. Dort sind drei Instanzvariablen (*id, name, kontostand*) mit drei **Gettern**, zwei **Konstruktoren** und zwei zusätzlichen **Methoden/Fähigkeiten** einzubauen.
+Stellt euch vor ihr programmiert ein rudimentäres Banksystem. Ihr fangt an die Struktur für Bankkonten zu bauen. Das ist eure Klasse *Konto*. Dort sind drei Instanzvariablen (*id, name, kontostand*) mit drei **Gettern**, zwei **Konstruktoren** und zwei zusätzlichen **Methoden/Fähigkeiten** einzubauen.
 
 #### Eure spezifischen Aufgaben sind:
 - Baut Getter für die drei Instanzvariablen *id, name, kontostand*
