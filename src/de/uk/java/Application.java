@@ -18,9 +18,9 @@ public class Application {
 		konto1.auszahlen(200);
 		
 		// Getter testen
-		konto2.getKontostand();
-		konto2.getId();
-		konto2.getName();
+		System.out.println(konto2.getKontostand());
+		System.out.println(konto2.getId());
+		System.out.println(konto2.getName());
 	}
 
 }
