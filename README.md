@@ -18,7 +18,7 @@ Stellt euch vor ihr programmiert ein rudimentäres Banksystem. Ihr fangt an die 
 - Programmiert zwei Methoden (*einzahlen, auszahlen*)
 - Einzahlen (braucht keinen Rückgabewert/return):
   - nimmt als Argument einen int an
-  - fügt den gegebenen Betrag dem Kontostand zurück
+  - fügt den gegebenen Betrag dem Kontostand hinzu
   - Gibt auf der Konsole einen Text aus, der auf den Erfolg der Transaktion und auf den neuen Kontostand hinweist
 - Auszahlen (braucht keinen Rückgabewert/return):
   - nimmt als Argument einen int an
