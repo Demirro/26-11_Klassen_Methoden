@@ -42,3 +42,23 @@ Hier noch ein paar nützliche 📃Artikel, 🖊️Threads und 🎥Videos
 - [📃 Objekte (Wegweiser)](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Objekte-I-Initialisierung-Members-Zugriff.md)
 
 - [📃 Java Naming Conventions](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Naming-Conventions.md)
+
+
+### P.S. Global Variablen in Java
+**an diejenigen aus dem letzten Zoom-Meeting und an die, die es interessiert**
+
+Es gibt keine direkte globale Variable in Java. Beziehungsweise nicht explizit. In der letzten Übungsstunde hatten wir uns ja lokale Variablen, Instanz- und Klassenvariablen angeguckt. Klassenvariablen (private static int variable;) sind ja Variablen, die für alle Instanzen/Objekte einer Klasse gleich sind. Da diese aber private sind, können sie nur über Getter/Setter aufgerufen werden und auch nur, wenn man ein Objekt der Klasse erstellt hat.
+
+Um eine globale Variable zu "simulieren" kann man eine Klasse erstellen, beispielsweise die Klasse *Globals*. In dieser Klasse erstellt man eine Klassenvariable, nur macht man diese public. Also:
+```java
+public class Globals {
+public static int globalSize = 20;
+}
+```
+Die Variable *globalSize* ist jetzt überall im Code abrufbar, auch ohne eine Instanz zu erstellen. Beispiel:
+```java
+System.out.println(Globals.globalSize);
+```
+Es gibt noch eine zweite Methode, aber dafür braucht man Sachen aus Java, die ihr noch nicht kennt.
+Mehr dazu hier:
+- [📃 Variablen - Gültigskeitsbereiche](http://java-latte.blogspot.com/2014/01/global-variable-vs-class-variable-vs.html)
