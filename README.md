@@ -9,7 +9,7 @@ Ihr findet im Download wieder eine Vorlage. Es geht diesmal um Klassen und Metho
 
 Stellt euch vor ich programmiert ein rudimentäres Banksystem. Ihr fangt an die Struktur für Bankkonten zu bauen. Das ist eure Klasse *Konto*. Dort sind drei Instanzvariablen (*id, name, kontostand*) mit drei **Gettern**, zwei **Konstruktoren** und zwei zusätzlichen **Methoden/Fähigkeiten** einzubauen.
 
-## Eure spezifischen Aufgaben sind:
+#### Eure spezifischen Aufgaben sind:
 - Baut Getter für die drei Instanzvariablen *id, name, kontostand*
 - Erstellt zwei Konstruktoren
   - Ein Konstruktor soll als Argumente eine ID und einen Namen annehmen
