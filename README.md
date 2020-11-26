@@ -32,6 +32,7 @@ Stellt euch vor ihr programmiert ein rudimentäres Banksystem. Ihr fangt an die 
 - In diesem Projekt werden keine Setter benutzt. Die Setter sind deswegen aber quasi Teil der Konstruktoren
 - Ihr könnt von einem Konstruktor einen anderen Konstruktor aufrufen
 
+- Im Projekt befindet sich eine Zip, welche meine Musterlösung beinhaltet
     
 ### ℹ️ Resourcen:
 Hier noch ein paar nützliche 📃Artikel, 🖊️Threads und 🎥Videos
